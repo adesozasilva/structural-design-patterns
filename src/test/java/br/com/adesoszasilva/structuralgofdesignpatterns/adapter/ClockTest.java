@@ -1,10 +1,12 @@
 package br.com.adesoszasilva.structuralgofdesignpatterns.adapter;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
 
 import java.util.Calendar;
 
 import org.junit.Test;
+
+import br.com.monsterdevelopers.structuralgofdesignpatterns.adapter.Clock;
 
 public class ClockTest {
 
