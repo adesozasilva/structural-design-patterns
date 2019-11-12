@@ -18,18 +18,20 @@ public class TaxTest {
 		
 		thenReturnShouldBeValue();
 	}
-
-	private void thenReturnShouldBeValue() {
-		assertEquals(taxesValues, 80, 0.10);
-	}
-
-	private void whenCalculateTaxes() {
-		taxesValues = taxes.calculate(budget);
-	}
-
+	
 	private void givenTaxes() {
 		taxes = new ISS(new ICMS());
 		budget = new Budget(500.0);
 	}
+	
+	private void whenCalculateTaxes() {
+		taxesValues = taxes.calculate(budget);
+	}
+	
+	private void thenReturnShouldBeValue() {
+		assertEquals(taxesValues, 80, 0.10);
+	}
+
+	
 
 }
