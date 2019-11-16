@@ -1,6 +1,6 @@
 # Structural GoF Design Patterns for Java
 
-In this repository will be introduce the structural gof designs patterns for Java. The patterns are:
+In this repository will be introduced the structural gof designs patterns for Java. The patterns are:
 
 - Adapter - Allow you wrap an incompatible object in an adapter to make it compatible with another class. <b>Usage examples</b>: When it is necessary to adapt an object that is incompatible with our system.
 
