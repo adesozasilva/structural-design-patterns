@@ -8,6 +8,6 @@ In this repository will be introduce the structural gof designs patterns for Jav
 - Composite - A group of objects should be treated the same way as a single instance. <b>Usage examples</b>: When there is an object designed to consist of one or more similar objects, all show a similar feature
 - Decorator - Allow us add a behavior to a object, without to affect the behavior de anothers object in same class. <b>Usage examples</b>:
 When you need to add a feature to object without to affect the decorated class.
-- Facade - Provides a simplified interface(facade) for the client to access the system. The façade conceals components and complex logic. <b>Usage examples</b>: When there is a complex system or service to clients need to use, a facade can make integration easier.
+- Facade - Provides a simplified interface(facade) for the client to access the system. The facade conceals components and complex logic. <b>Usage examples</b>: When there is a complex system or service to clients need to use, a facade can make integration easier.
 - Flyweight - 
 - Proxy
