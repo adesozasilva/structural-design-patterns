@@ -16,3 +16,6 @@ When you need to add a feature to object without to affect the decorated class.
 - Flyweight - Create the objects and share the instances in the application. <b>Usage examples</b>: When you need to create a large number of immutable objects improving application memory consumption.
 
 - Proxy - It is called by the client to access the service of an object. <b>Usage examples</b>: when you want to add some additional behaviors to an object of some existing class without changing the client code.
+
+## References
+Erich Gamma, Richard Helm, Ralph Johnson and John Vlissides (1994) - *Design Patterns: Elements of Reusable Object-Oriented Software.*	United States: Addison-Wesley Professional Computing Series.
