@@ -1,4 +1,4 @@
-# Structural GoF Design Patterns for Java
+# Structural Design Patterns for Java
 
 This repository will be introduced the structural GOF design patterns for Java. The patterns are:
 
